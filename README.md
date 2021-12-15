@@ -39,16 +39,19 @@ $ sudo chmod 666 /dev/myled0
 ```
 $ echo 0 > /dev/myled0
 ```
+![right](https://github.com/HarukiOgawa1/university/blob/main/robosisu/myled/IMG_6150.jpg)
 
 #### 1を入力した場合
 ```
 $ echo 1 > /dev/myled0
 ```
+![center](https://github.com/HarukiOgawa1/university/blob/main/robosisu/myled/IMG_6151.jpg)
 
 #### 2を入力した場合
 ```
 $ echo 2 > /dev/myled0
 ```
+![left](https://github.com/HarukiOgawa1/university/blob/main/robosisu/myled/IMG_6152.jpg)
 
 #### それ以外を入力した場合
 LEDが右から左に順番に点滅する。
@@ -56,4 +59,4 @@ LEDが右から左に順番に点滅する。
 ### 動画
 
 ### ライセンス
-[COPYING](https://github.com/HarukiOgawa1/Robosys2021_devicedriver/blob/main/COPYING)
+[MIT License](https://github.com/HarukiOgawa1/Robosys2021_devicedriver/blob/main/COPYING)
