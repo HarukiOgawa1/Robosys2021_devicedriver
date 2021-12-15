@@ -15,7 +15,8 @@ LEDを用いて、指定した番号のLEDを点灯させるデバイスドラ�
 ・ジャンパー線 オス-メス *6<br>
 
 ### 回路
-以下のように回路を組み立てた。
+以下のように回路を組み立てた。<br>
+<img src="https://github.com/HarukiOgawa1/university/blob/main/robosisu/myled/IMG_6144.jpg" width="400px">
 
 | No. | Name | GPIO | PinNumber | GND |
 | ----- | ----- | ----- | ----- | ----- |
@@ -39,24 +40,25 @@ $ sudo chmod 666 /dev/myled0
 ```
 $ echo 0 > /dev/myled0
 ```
-![right](https://github.com/HarukiOgawa1/university/blob/main/robosisu/myled/IMG_6150.jpg)
+<img src="https://github.com/HarukiOgawa1/university/blob/main/robosisu/myled/IMG_6150.jpg" width="500px">
 
 #### 1を入力した場合
 ```
 $ echo 1 > /dev/myled0
 ```
-![center](https://github.com/HarukiOgawa1/university/blob/main/robosisu/myled/IMG_6151.jpg)
+<img src="https://github.com/HarukiOgawa1/university/blob/main/robosisu/myled/IMG_6151.jpg" width="500px">
 
 #### 2を入力した場合
 ```
 $ echo 2 > /dev/myled0
 ```
-![left](https://github.com/HarukiOgawa1/university/blob/main/robosisu/myled/IMG_6152.jpg)
+<img src="https://github.com/HarukiOgawa1/university/blob/main/robosisu/myled/IMG_6152.jpg" width="500px">
 
 #### それ以外を入力した場合
 LEDが右から左に順番に点滅する。
 
 ### 動画
+YouTubeにアップロードした動画は[こちら](https://youtu.be/av5OvgAapbE)。
 
 ### ライセンス
 [MIT License](https://github.com/HarukiOgawa1/Robosys2021_devicedriver/blob/main/COPYING)
