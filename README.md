@@ -61,4 +61,4 @@ LEDが右から左に順番に点滅する。
 YouTubeにアップロードした動画は[こちら](https://youtu.be/av5OvgAapbE)。
 
 ### ライセンス
-[MIT License](https://github.com/HarukiOgawa1/Robosys2021_devicedriver/blob/main/COPYING)
+[GNU General Public License v3.0](https://github.com/HarukiOgawa1/Robosys2021_devicedriver/blob/main/COPYING)
